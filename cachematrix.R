@@ -54,7 +54,7 @@ cacheSolve <- function(x, ...) {
         return(m)
     }
   #
-  # Condition#2: m is equal to NULL (for new matrix): 
+  # Condition#2: m is equal to NULL (applicable for new matrix): 
   # Retrieving the Matrix x from the input object
     data <- x$get() 
   #    
